@@ -21,4 +21,5 @@ Após esse comando,
 
 o tópico turtle1/cmd_vel, *message type Twist*, é publicado e é possível observar a mudança na velocidade dependendo da orientação do rosto do usuário e a posição de suas pernas em relação ao sensor laser.
 
-<img src="images/leg_monitoring.png" width="450">
+É possível ver o output pelo terminal digitando:
+>rostopic echo /turtle1/cmd_vel 
