@@ -1,0 +1,6 @@
+vel_topic: turtle1/cmd_vel
+legLaserTopic: distance
+posHeadTopic: pos_head_topic
+control_rate: 100
+dist_Thresh: 0.5
+

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="formation_control" name="formation_control" type="formation_control.py" output="screen">
+	</node>
+
+</launch>

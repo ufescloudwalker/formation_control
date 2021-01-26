@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+    
+    <include file="$(find leg_monitoring)/launch/leg_monitoring.launch" />
+
+    <include file="$(find face_orientation)/launch/face_orientation.launch" />
+
+    <include file="$(find formation_control)/launch/formation_control.launch" />
+
+
+</launch>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+    
+    <include file="$(find leg_monitoring)/launch/rplidar_node.launch" />
+
+    <include file="$(find face_orientation)/launch/usb_cam_node.launch" />
+
+
+
+</launch>
